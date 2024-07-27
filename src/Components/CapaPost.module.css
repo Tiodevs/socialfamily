@@ -1,0 +1,41 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tags{
+    background-color: #d2dae8;
+    padding: 10px;
+    border-radius: 7px;
+    color: #232E52;
+    font-weight: 500;
+}
+
+.time{
+    padding: 10px;
+    color: #232E52;
+    font-weight: 500;
+}
+
+.infomacoes h2{
+    font-size: 35px;
+    color: #232E52;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+.infomacoes h2:hover{
+    background-color: #d2dae8;
+}
+
+.infomacoes p{
+    font-size: 19px;
+    color: #232E52;
+    margin: 15px 0 0 0;
+}

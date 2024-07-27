@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.navbar {
+    display: flex;
+    background-color: #232E52;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    height: 120px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.brand {
+    font-size: 1.5em;
+    font-family: "Spectral SC", serif;
+    font-weight: 500;
+    color: #FFFF
+}
+
+.links_list{
+    display: flex;
+    list-style: none;
+    margin-right: 1em;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.links_list li a {
+    padding: 0.4em 0.6em;
+    color: #FFFF;
+}
+
+/* .active{
+    background-color: #000;
+    color: #FFF;
+} */
+
+
+.entrar{
+    color: #FFFF;
+    background-color: #ffffff2a;
+    font-size: 18px;
+    padding: 12px 45px;
+    border-radius: 8px;
+}
+
+.entrar *{
+    color: #FFFF;
+}
